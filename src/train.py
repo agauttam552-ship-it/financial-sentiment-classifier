@@ -41,11 +41,10 @@ def get_model_configs() -> dict:
             verbosity=0,
         ),
         "AdaBoost": AdaBoostClassifier(
-            n_estimators=200,
-            learning_rate=0.5,
-            random_state=42,
-            algorithm="SAMME",  # required for multi-class
-        ),
+                    n_estimators=200,
+                    learning_rate=0.5,
+                    random_state=42,),
+# required for multi-class
         "CatBoost": CatBoostClassifier(
             iterations=200,
             learning_rate=0.1,

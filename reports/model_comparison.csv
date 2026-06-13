@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score
+XGBoost,0.7692,0.7601,0.7692,0.7487
+AdaBoost,0.7094,0.6895,0.7094,0.6741
+CatBoost,0.7692,0.7915,0.7692,0.7356
